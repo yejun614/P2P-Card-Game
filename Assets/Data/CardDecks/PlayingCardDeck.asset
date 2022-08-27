@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdef52471e61d40328f734ba49f8e55c, type: 3}
+  m_Name: PlayingCardDeck
+  m_EditorClassIdentifier: 
+  CardBackSprite: {fileID: 21300000, guid: b29b9906a847d47748a98abc55dfeaec, type: 3}
+  Cards:
+  - Name: C2
+    FrontSprite: {fileID: 21300000, guid: 6042e56556639492aa5f505c3ea79fb4, type: 3}
+  - Name: C3
+    FrontSprite: {fileID: 21300000, guid: a33f3c664f5ae43d1a2022544bed41c9, type: 3}
+  - Name: C4
+    FrontSprite: {fileID: 21300000, guid: 63a53021b47ff4fe7a7f4d99b2743589, type: 3}
+  - Name: C5
+    FrontSprite: {fileID: 21300000, guid: 3ca0efb2aa44b4b858dd6f89486ad797, type: 3}
+  - Name: C6
+    FrontSprite: {fileID: 21300000, guid: 063c6502e14454d72a9f17a084023f78, type: 3}
+  - Name: C7
+    FrontSprite: {fileID: 21300000, guid: 72588c68f8ff946bf9b484dd6d0713c3, type: 3}
+  - Name: C8
+    FrontSprite: {fileID: 21300000, guid: 69518a8cdbbe5450dbba5f8277b2f596, type: 3}
+  - Name: C9
+    FrontSprite: {fileID: 21300000, guid: 074b1f5ad45bb4e27a14c9ff53338268, type: 3}
+  - Name: C10
+    FrontSprite: {fileID: 21300000, guid: 4b15fe042739e46efa7c3edb6500a3f8, type: 3}
+  - Name: CA
+    FrontSprite: {fileID: 21300000, guid: 8ecaee071829e4160be7ff8f75573bfe, type: 3}
+  - Name: CJ
+    FrontSprite: {fileID: 21300000, guid: d13b9e664a7c74096932e2c9150a8f9f, type: 3}
+  - Name: CK
+    FrontSprite: {fileID: 21300000, guid: 6fc39cc8766df461a8e987668a1e1f8d, type: 3}
+  - Name: CQ
+    FrontSprite: {fileID: 21300000, guid: 1b42d9f24fe3142e0b161cff08a6ec02, type: 3}
+  - Name: D2
+    FrontSprite: {fileID: 21300000, guid: 70651b67289a84f0591e1995df142d4e, type: 3}
+  - Name: D3
+    FrontSprite: {fileID: 21300000, guid: d5e1ef053b9e643118c79fe194b0ea4a, type: 3}
+  - Name: D4
+    FrontSprite: {fileID: 21300000, guid: 01626d80f0a984afda10603f526c4491, type: 3}
+  - Name: D5
+    FrontSprite: {fileID: 21300000, guid: d87f148cc2c5c4f4193c63c279bee6ff, type: 3}
+  - Name: D6
+    FrontSprite: {fileID: 21300000, guid: 598b38656a6ae430bbb0b3f1872b68d9, type: 3}
+  - Name: D7
+    FrontSprite: {fileID: 21300000, guid: 2d39e491364094c14a604a34556933a7, type: 3}
+  - Name: D8
+    FrontSprite: {fileID: 21300000, guid: 4375fad05c86f499eacc8d0a1b728279, type: 3}
+  - Name: D9
+    FrontSprite: {fileID: 21300000, guid: 1878f7ee0a21c4a0fbf8e111a8409a33, type: 3}
+  - Name: D10
+    FrontSprite: {fileID: 21300000, guid: ca56788812c4e475a85b4348f82ac975, type: 3}
+  - Name: DA
+    FrontSprite: {fileID: 21300000, guid: 4ba6e58d4afca4e64b42b734f420a2fa, type: 3}
+  - Name: DJ
+    FrontSprite: {fileID: 21300000, guid: 5f440432bf3b941d2929243f45e3d995, type: 3}
+  - Name: DK
+    FrontSprite: {fileID: 21300000, guid: 4b56518e460404ae6903b4d1757fe5ff, type: 3}
+  - Name: DQ
+    FrontSprite: {fileID: 21300000, guid: 2d039296c3b68496ca1e6c891d81b9ea, type: 3}
+  - Name: H2
+    FrontSprite: {fileID: 21300000, guid: 308de9d54d45246f8ac9e65edea68bef, type: 3}
+  - Name: H3
+    FrontSprite: {fileID: 21300000, guid: bb5c28e96ac3a47918b1dfb5af92378e, type: 3}
+  - Name: H4
+    FrontSprite: {fileID: 21300000, guid: 393d8981b740e40c0806d2638230f076, type: 3}
+  - Name: H5
+    FrontSprite: {fileID: 21300000, guid: fb214d3fc92e14507b17e663b20e0b9f, type: 3}
+  - Name: H6
+    FrontSprite: {fileID: 21300000, guid: e7785ef83220242afb7cb558b926ca02, type: 3}
+  - Name: H7
+    FrontSprite: {fileID: 21300000, guid: c56b503d2cce046e791569e11b74caed, type: 3}
+  - Name: H8
+    FrontSprite: {fileID: 21300000, guid: fffb30bdb81ee49f3b2bbfac29bf1120, type: 3}
+  - Name: H9
+    FrontSprite: {fileID: 21300000, guid: 82e136da87e5e48c4ab003160f59a9eb, type: 3}
+  - Name: H10
+    FrontSprite: {fileID: 21300000, guid: 1d94b5e74e4514fdc93da1c60b5023d9, type: 3}
+  - Name: HA
+    FrontSprite: {fileID: 21300000, guid: 4aee5ca9e783c47ed8c4706f15abdb37, type: 3}
+  - Name: HJ
+    FrontSprite: {fileID: 21300000, guid: 1e84ca3409d1245dbb966ca0a024bab6, type: 3}
+  - Name: HK
+    FrontSprite: {fileID: 21300000, guid: f5a0a3f951f3d4ab2bf29406426d6de3, type: 3}
+  - Name: HQ
+    FrontSprite: {fileID: 21300000, guid: 24257ea4b6dfc416cae069e9d2c56005, type: 3}
+  - Name: Joker
+    FrontSprite: {fileID: 21300000, guid: b871299cf927d4aceb7c18a364d88040, type: 3}
+  - Name: Joker2
+    FrontSprite: {fileID: 21300000, guid: dab34319f3829409d8e056f51d1966ac, type: 3}
+  - Name: S2
+    FrontSprite: {fileID: 21300000, guid: 2eb42862815574335bf4bf0acfcf1234, type: 3}
+  - Name: S3
+    FrontSprite: {fileID: 21300000, guid: bce31ac5b000743e4ac77eb6249fe836, type: 3}
+  - Name: S4
+    FrontSprite: {fileID: 21300000, guid: e7518a1c6ae4c4c88baa93fe22a2280e, type: 3}
+  - Name: S5
+    FrontSprite: {fileID: 21300000, guid: 26d8058bda3f94181970a4eb771b7869, type: 3}
+  - Name: S6
+    FrontSprite: {fileID: 21300000, guid: 7ff45d9f188ae46ca8aa749abd45d0a1, type: 3}
+  - Name: S7
+    FrontSprite: {fileID: 21300000, guid: df7e98f60b6f048dfa5aa94684b3e928, type: 3}
+  - Name: S8
+    FrontSprite: {fileID: 21300000, guid: ea1af34e41b68415fb13f393fe6299cb, type: 3}
+  - Name: S9
+    FrontSprite: {fileID: 21300000, guid: c9d1fa3c3942b40bc9a1e56010783b1e, type: 3}
+  - Name: S10
+    FrontSprite: {fileID: 21300000, guid: b434a94e3d9b14928bad5b9e5ac55071, type: 3}
+  - Name: SA
+    FrontSprite: {fileID: 21300000, guid: ce6f4029df7294bec97d922ec3fe8158, type: 3}
+  - Name: SJ
+    FrontSprite: {fileID: 21300000, guid: a015b4a001b6a406eb3e272d5ef88ce9, type: 3}
+  - Name: SK
+    FrontSprite: {fileID: 21300000, guid: ad5c1d47791094202b193914df1d1385, type: 3}
+  - Name: SQ
+    FrontSprite: {fileID: 21300000, guid: affb39426641a4298970f1f9f59e8c13, type: 3}
+  spritePath: Assets/Sprites/playing cards/Cards
